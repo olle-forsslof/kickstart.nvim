@@ -11,6 +11,10 @@ return {
         enabled = true,
         hidden = true,
         sources = {
+          explorer = {
+            hidden = true,
+            ignored = true,
+          },
           buffers = {
             filter = {
               filter = function(item)
@@ -68,7 +72,7 @@ return {
             -- layout = "ivy",
           }
         end,
-        desc = '[P]Snacks picker buffers',
+        desc = 'Snacks picker buffers',
       },
       -- Top Pickers & Explorer
       {
